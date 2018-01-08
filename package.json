@@ -1,0 +1,26 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "6.11.3",
+    "npm": "5.4.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wordaddict/fullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wordaddict/fullstack/issues"
+  },
+  "homepage": "https://github.com/wordaddict/fullstack#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
