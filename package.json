@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "6.11.3",
-    "npm": "5.4.2"
+    "node": "8.11.1",
+    "npm": "5.8.0"
   },
   "scripts": {
     "start": "node index.js",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/wordaddict/fullstack#readme",
   "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "mongoose": "^5.0.16",
     "nodemon": "^1.14.9",
