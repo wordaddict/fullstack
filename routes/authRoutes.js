@@ -20,4 +20,8 @@ module.exports = app => {
     res.send(req.user);
   });
 
+  app.get('/', (req, res) => {
+    res.send('We are live!')
+  });
+
 };
