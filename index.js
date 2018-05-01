@@ -9,6 +9,10 @@ require("./services/passport.js");
 
 const app = express();
 
+app.get('/', (req, res) => {
+  res.send('We are live!')
+});
+
 app.use(cookieSession({
   maxAge: 30 * 24 * 60 * 60 * 1000,
   keys: [keys.cookieKey]
