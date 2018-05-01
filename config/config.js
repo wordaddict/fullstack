@@ -10,7 +10,7 @@ if (process.env.Node_ENV === 'production') {
     module.exports = require('./prod');
   };
 
-// Set up mongoose connection
+//Set up mongoose connection
 const mongoDB = `mongodb://${process.env.MONGODB_HOST}:${process.env.MONGODB_PORT}/${process.env.MONGODB_DATABASE_NAME_DEV}`;
 console.log(mongoDB);
 mongoose.connect(mongoDB);
